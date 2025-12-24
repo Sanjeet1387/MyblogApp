@@ -32,9 +32,9 @@ function App() {
       <div className='w-full block'>
         <Header />
         <main>
-          {/* note: this is main issue i found during debugging, due to absent of outlet -> there display the form(login, signup etc) */}
-          {/* so this is very very import */}
-          TODO:  <Outlet />
+          {/* note: this is main issue i found during debugging, due to absent of outlet -> there no display the form(login, signup etc) */}
+          {/* so this is very very important */}
+          <Outlet />
         </main>
         <Footer />
       </div>
